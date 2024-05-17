@@ -151,7 +151,7 @@ def insert_into_mongoDB(channel_id):
     coll.insert_one(data)
     return "uploading completed"
 
-mydb = mydb = mysql.connector.connect(
+mydb = mysql.connector.connect(
 host="localhost",
 user="root",
 password="Velcharru@1406",
